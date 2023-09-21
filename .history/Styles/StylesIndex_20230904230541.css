@@ -1,0 +1,15 @@
+.btns{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.btnHeader {
+    background-color: aliceblue;
+    border: none !important;
+    padding: 10px 20px; /* Ajusta el valor de padding según el tamaño que desees */
+}
+
+
+.btnHeader2{
+    text-align: center;
+}

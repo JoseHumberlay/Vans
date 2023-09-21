@@ -1,0 +1,35 @@
+.btns{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.btnHeader {
+    background-color: aliceblue;
+    border: none !important;
+    padding: 10px 20px; /* Ajusta el valor de padding según el tamaño que desees */
+}
+
+
+.header2{
+    text-align: center;
+    align-items: center;
+    
+}
+
+.logo{
+    float: left;
+
+}
+
+.btnHeader2{
+    background-color: white;
+    border: none !important;
+    padding: 10px 20px; /* Ajusta el valor de padding según el tamaño que desees */
+}
+
+.msmNegro{
+    margin-top: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

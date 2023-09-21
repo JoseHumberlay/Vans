@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/StylesIndex.css">
+    <link rel="icon" href="fotos/logovans.ico">
+    <title>Tienda Oficial | Vans® México</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+</head>
+<body>
+
+    <header>
+
+        <div class="btns">
+            <button class="btnHeader">ⓘAyuda</button>
+            <button class="btnHeader">👤Mi cuenta</button>
+            <button class="btnHeader">♡Favoritos</button>
+        </div>
+
+        <div class="header2">
+
+            <div class="btns2">
+                <img class="logo" src="./fotos/vans_logo___f0e76da56209d821e62c3835c1269ca8.svg" alt="">
+
+                <button class="btnHeader2">  HOMBRE  </button>
+               
+                <button class="btnHeader2">/   MUJER  </button>
+                <button class="btnHeader2">/  NIÑOS  </button>
+                <button class="btnHeader2">/  BÁSICOS  </button>
+                <button class="btnHeader2">/  SKATE  </button>
+                <button class="btnHeader2">/  REBAJAS  </button>
+                <button class="btnHeader2">MÁS</button>
+
+            </div>
+
+        </div>
+        
+
+    </header>
+    
+    <main>
+        <div class="msmNegro">
+            <p>Hasta 6 MSI en compra mínima de $2,599 MXN</p>
+        </div>
+
+        <img class="fotoPrincipal" src="./fotos/cef62b88-67e2-4401-b554-e0ef1e258dcc___9cc18217ad430e4c78d28d4dc2105d5c.png" alt="">
+        <button class="comprar"><b>COMPRAR AQUÍ</b></button>
+       <div class="letra">
+        <p><b>THE</b></p>  
+        <p><b>KNU</b</p>
+        <p><b>SK00L™</b></p>
+       </div>
+        <h2>
+            TENIS, ROPA Y ACCESORIOS VANS
+        </h2>
+
+        <div id="miModal" class="modal">
+            <div class="modal-contenido">
+                <span class="cerrar-modal" id="cerrarModal">&times;</span>
+                <h1>Bienvenido a tu house VANS</h1>
+                <form id="login-form">
+                  <div class="form-group1">
+                      <label class="label-usuario" for="username">Usuario:</label>
+                      <input type="text" id="username" name="username" required>
+                  </div>
+                  <div class="form-group2">
+                      <label class="label-contraseña" for="password">Contraseña:</label>
+                      <input type="password" id="password" name="password" required>
+                  </div>
+                  <button class="boton-inicio" type="submit">Iniciar Sesión</button>
+              </form>
+            </div>
+        </div>
+        <script>
+         // script.js
+      document.addEventListener("DOMContentLoaded", function () {
+          const modal = document.getElementById("miModal");
+          const cerrarModal = document.getElementById("cerrarModal");
+      
+          // Mostrar el modal al cargar la página
+          modal.style.display = "block";
+      
+          // Cerrar el modal al hacer clic en la 'x'
+          cerrarModal.addEventListener("click", function () {
+              modal.style.display = "none";
+          });
+      
+          // Cerrar el modal al hacer clic fuera del contenido
+          window.addEventListener("click", function (event) {
+              if (event.target === modal) {
+                  modal.style.display = "none";
+              }
+          });
+      });
+      
+        </script>
+
+
+
+        <div class="botones-productos">
+       
+            
+            <button onclick="cambiarColorFondo()" class="btn-pro1" id="Hm">Hombre /</button>
+            <script>
+                function cambiarColorFondo() {
+                    var elemento = document.getElementById('Hm');
+                    elemento.style.backgroundColor = 'red';
+                }
+            </script>
+            <button onclick="cambiarColorFondo()" class="btn-pro2" id="Mj">Mujer /</button>
+   
+            <button onclick="cambiarColorFondo()" class="btn-pro3" id="nn">Niños /</button>
+
+            <button onclick="cambiarColorFondo()" class="btn-pro4" id="sk">Skate</button>
+ 
+
+            <div class="fotos-container">
+                <div>
+                    <img class="img-con" src="./fotos/1.webp" alt="">
+                    <button class="btn-fotos" id="Nuevo">Lo mas nuevo hombre</button>
+                    <script>
+                        var boton = document.getElementById("Nuevo");
+                         boton.addEventListener("click", function() {
+                          alert("Lo mas nuevo para hombre seleccionado");
+                        });
+                      </script>
+                </div>
+
+                <div>
+                    <img class="img-con" src="./fotos/2.webp" alt="">
+                    <button class="btn-fotos" id="BtnCalzado">Calzado Hombre</button>
+                    <script>
+                        var boton = document.getElementById("BtnCalzado");
+                         boton.addEventListener("click", function() {
+                          alert("Calzado para hombre seleccionado");
+                        });
+                      </script>
+                </div>
+
+                <div>
+                    <img class="img-con" src="./fotos/3.webp" alt="">
+                    <button class="btn-fotos" id="btnropa">Ropa Hombre</button>
+                    <script>
+                        var boton = document.getElementById("btnropa");
+                         boton.addEventListener("click", function() {
+                          alert("Ropa para hombre seleccionado");
+                        });
+                      </script>
+                </div>
+
+                <div>
+                    <img class="img-con" src="./fotos/4.webp" alt="">
+                    <button class="btn-fotos" id="btnacc">ACCESORIOS Hombre</button>
+                    <script>
+                        var boton = document.getElementById("btnacc");
+                         boton.addEventListener("click", function() {
+                          alert("Accesorios para hombre seleccionado");
+                        });
+                      </script>
+                </div>
+            </div>
+
+
+            <div class="fotos-container">
+                <div>
+                    <img class="img-con" src="fotos/lowland.svg" alt="">
+                    <h2>LOWLAND</h2>
+                    
+                </div>
+
+
+                <div>
+                    <img class="img-con" src="./fotos/ultra_range.svg" alt="">
+                    <h2>ULTRARANGE EXO-MTE-1
+                    </h2>
+                
+                </div>
+
+                <div>
+                    <img class="img-con" src="./fotos/old_skool.svg" alt="">
+                    <h2>LIFESTYLE
+                    </h2>
+                    
+                </div>
+            </div>
+
+        </div class="gif">
+        <img  class="impp" id="gifImage" src="fotos/gif.gif" alt="GIF Animado">
+        <script src="funcion.js"></script>
+        <div>
+
+        </div>
+
+
+       
+  <a href="https://api.whatsapp.com/send?phone=529613015252"
+  class="btnwsp" target="_blank">
+  <i class="iconwsp"> 
+    <img src="fotos/descarga.png" alt="">
+  </i>
+  </a>
+
+ </script>
+    </main>
+
+    <footer>
+        <div class="footer">
+           
+            <section>
+            <div class="tw1">
+                <img class ="tw"src="fotos/twitter.webp">
+                <img class ="tw" src="fotos/facebook.webp">
+                <img class ="tw" src="fotos/instagram.webp">
+     
+     
+      
+            <div class="imfott">
+                <img class="fot" src="fotos/footer.png" >
+            </div>
+        </div>
+        
+        <div  id="imagen" class="formaPago">
+        <img id="imagen" class="f1" src="fotos/Visa_logo.svg"  alt="Mi Imagen">
+        <img id="imagen" class="f2" src="fotos/MasterCard_logo.svg"  alt="Mi Imagen">
+        <img  id="imagen"class="f3" src="fotos/AmericanExpress_logo.svg"  alt="Mi Imagen">
+        <img id="imagen" class="f4" src="fotos/paypal_logo.svg"  alt="Mi Imagen">
+        <img id="imagen" class="f5" src="fotos/mercadopago_logo.svg"  alt="Mi Imagen">
+        <img  id="imagen"class="f6" src="fotos/kueski-logo-blanco.png"  alt="Mi Imagen">
+        <img id="imagen" class="f7" src="fotos/Aplazo-logo.svg"  alt="Mi Imagen">
+        
+
+        </div>
+        <script src="imgMov.js"></script>
+
+            <img class="logovans2" src="fotos/vans.svg">
+                  <form action=""></form>
+                 
+
+             </div>
+            </section>   
+            
+         </div>
+    </footer>
+</body>
+</html>

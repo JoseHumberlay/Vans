@@ -1,0 +1,306 @@
+.btns{
+    text-align: center;
+    background-color: aliceblue;
+    cursor: pointer;
+
+}
+
+header{
+    width: 100%;
+
+    height: auto;
+}
+
+.btnHeader {
+    background-color: aliceblue;
+    border: none !important;
+    padding: 10px 20px; 
+    cursor: pointer;
+
+}
+
+
+.header2{
+    text-align: center;
+    align-items: center;
+    
+}
+
+.logo{
+    float: left;
+
+}
+
+.btnHeader2{
+    background-color: white;
+    border: none !important;
+    padding: 10px 20px; 
+    cursor: pointer;
+
+}
+
+.msmNegro{
+    margin-top: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.fotoPrincipal{
+    width: 100%;
+
+    height: auto;
+
+}
+
+.btn-pro{
+    background-color: white ;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+}
+
+.fotos-container {
+    display: flex; /* Usa flexbox para alinear los elementos en una fila horizontal */    
+   
+}
+
+.fotos-container > div {
+    display: inline-block; 
+    margin-right: -200px; /* separar los elementos */
+    width: 100%; 
+    height: auto;
+}
+
+.btn-fotos {
+    display: block; 
+    margin-top: 10px; 
+    background-color: white;
+    border: none;
+}
+
+.img-con{
+    width: 60%; 
+    height: auto; 
+}
+
+.fotos-container{
+    margin-top: 25px;
+}
+
+.foto-footer{
+ 
+}
+.comprar{
+    
+    position: absolute; /* Permite posicionamiento absoluto */
+
+    top: 540px; /* Ajusta la posición vertical */
+    left: 270px; /* Ajusta la posición horizontal */
+    background-color: transparent;
+    border: none;
+    padding: 17px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    background-color: #030303;
+    cursor: pointer;
+    font-size: 12px;
+    right: 100px;
+}
+.letra{
+    top: 150px;
+    left:230px;
+    position: absolute;
+    padding: 50px;
+    width: 950px;
+    color: rgb(7, 7, 7);
+    font-size: 60px;
+    line-height: 10px;
+    font-family: Helvetica;
+    font-weight: 300;
+
+
+}
+.footer{
+    background-color: rgb(31, 28, 28);
+    display: flex ;
+    position: absolute;
+    
+}
+.imfott{
+
+top: 10px;
+right: 10px;
+left: 10px;
+
+}
+.fot{
+  width: 100%; 
+  height: auto;
+}
+ 
+.tw1{
+margin-top: 5px;
+margin-left: 535px;
+}
+  .tw{
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .Wa{
+    color: #ffffff;
+    width: 10px;
+    margin-top: 5px;
+    margin-left: 25px;
+  }
+  
+ 
+  .logovans2{
+    margin-top: 150px;
+    margin-left: 580px;
+   
+  }
+  
+  .title{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    top: 2300px;
+    left: 1100px;
+    position: absolute;
+    
+  }
+ 
+
+
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+  
+  .modal h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serifs;
+  }
+  
+  .modal-contenido {
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    margin: 15% auto;
+    position: relative;
+  }
+  
+  .cerrar-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .btnwsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #67d689;
+    color: #ee0202;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+
+  }
+.btnwsp:hover{
+  text-decoration: none;
+  color: #0df053;
+  background: #fff;
+
+}
+.forma{
+  position: relative;
+  display: inline-block;
+}
+
+.formaPago{
+margin-top: 10px;
+}
+.f1{
+  width: 50px;
+  left: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.f2{
+  width: 50px;
+  left: 50px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.f3{
+  width: 50px;
+  left: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.f4{
+  width: 50px;
+  left: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.f5{
+  width: 50px;
+  left: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.f6{
+  width: 50px;
+  left: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.f7{
+  width: 50px;
+  left: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.impp{
+  width: 1450px;
+  left: 100px;
+}
+.sk{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(248, 248, 248);
+
+}
+.nn{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(248, 248, 248);
+}
+.Mj{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(248, 248, 248);
+}
+.Hm{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(248, 248, 248);
+}

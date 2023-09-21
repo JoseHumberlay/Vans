@@ -1,0 +1,9 @@
+header{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.btnHeader{
+    background-color: aliceblue;
+    border: none !important;
+}
